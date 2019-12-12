@@ -1,0 +1,232 @@
+/* This*/
+
+body {
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-bottom: 1px;
+	background-image: url('https://i.gifer.com/NtjH.gif');
+	color: #282828;
+	font-size: 22px;
+	line-height: 1.2;
+}
+.gallery {
+	background-image: url('https://graysonpope.files.wordpress.com/2018/07/zck3eju0ncntbmoamagv.gif');
+	background-size: cover;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 0em;
+	margin-top: 100px;
+	margin-bottom: 1px;
+	max-width: auto;
+}
+
+.about {
+	font-family: 'Sancreek', cursive;
+ background-image: url('http://www.lapsuslima.com/wp-content/uploads/2019/03/steamboat-bill-jr-02.gif');
+background-size: 1000px;
+background-position: bottom;
+color: white;}
+
+.untitled {
+	background-image: url('https://media3.giphy.com/media/p5mZELR2h6jOU/giphy.gif?cid=790b76118d9aff4acc35b166353b005f70ccfd929963008f&rid=giphy.gif');
+	background-size: 1000px;
+background-position: top;
+}
+
+main {
+	max-width: 50em;
+	margin: 5em auto;
+	padding: 0 0.5em;
+	perspective: 20em;
+}
+
+.home main {
+	max-width: 50em;
+	text-align: center;
+	margin: 5em auto;
+}
+
+.untitled main {
+	max-width: 100em;
+	margin-left: 0px;
+}
+
+iframe {
+	max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+h1{
+	font-size: 200px;
+	padding: 0;
+}
+
+h2 {
+		font-size: 50px;
+	color: #a8a8a8;
+	text-align: center;
+}
+
+h3 {margin-top: 100px;
+		font-size: 50px;
+	color: #FFC300;
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-align: center;
+}
+
+p {
+	font-size:35px;
+	color: red;
+	background-color: white;
+	max-width: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	background: white;
+	margin: -0.5em;
+	padding: 0em;
+	color: #f2c544;
+	text-align: left;
+}
+
+
+.button {
+	width: 500px;
+	    border: 10px solid;
+	    border-radius: 100px;
+	    padding: 0.5em 0.5em;
+	    text-decoration: wavy;
+	    text-align: center;
+	    color: #f9e914;
+	    background-color: blue;
+	    display: inline-block;
+	    margin: 0.5em 0;
+	    transition: color .5s;
+}
+
+.button:hover {
+	color: white;
+	background-color: black;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #000000;
+	padding: 10px;
+	z-index: 2;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+nav a {
+	color: #ffffff2b;
+	margin: 1em;
+	text-decoration: none;
+	transition: color .5s;
+}
+
+nav a:hover {
+	color: #AAAAAA;
+	text-decoration: underline;
+}
+
+.untitled nav{font-family: 'Press Start 2P', cursive;}
+
+.branding {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.item {
+	width:100%;
+	padding: 0em;
+ margin-top: 200px;
+ align-content: center;
+}
+
+.custom-1 {
+	background-color: forestgreen;
+	height: 5em;
+	width: 5em;
+	position: absolute;
+	animation-name: move-block;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.custom-2 {
+	height: 3em;
+	width: 3em;
+	position: absolute;
+	animation-name: move-block;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	margin-top:100px
+}
+
+.custom-3 {
+	height: 4em;
+	width: 4em;
+	position: absolute;
+	animation-name: move-block;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	margin-top:50px
+}
+.custom-5 {
+	height: 2em;
+	width: 2em;
+	position: absolute;
+	animation-name: move-block;
+	animation-duration:15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	margin-top:150px
+}
+.custom-4 {
+	height: 1em;
+	width: 1em;
+	position: absolute;
+	animation-name: move-block;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	margin-top:200px
+}
+
+@keyframes move-block {
+	0% {
+		left: 1em;
+		background: radial-gradient(circle, rgba(255,252,190,1) 5%, rgba(245,255,0,1) 20%, rgba(15,195,2,1) 40%, rgba(9,49,121,1) 60%, rgba(189,2,159,1) 80%, rgba(140,0,0,1) 100%);
+	}
+	50%{
+		background: radial-gradient(circle, rgba(140,0,0,1) 5%, rgba(189,2,159,1) 20%, rgba(9,49,121,1) 40%, rgba(15,195,2,1) 60%, rgba(245,255,0,1) 80%, rgba(255,252,190,1) 100%);
+
+	}
+	100%{
+		left: 55em;
+	background: radial-gradient(circle, rgba(140,0,0,1) 33%, rgba(189,2,159,1) 38%, rgba(9,49,121,1) 45%, rgba(15,195,2,1) 51%, rgba(245,255,0,1) 59%, rgba(255,252,190,1) 65%);
+		transform: rotate(360deg);
+	}
+
+
+}
